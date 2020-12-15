@@ -61,7 +61,7 @@ Collection of resources related with Graph Contrastive Learning.
     + __Method(*BiGI*):__ Local-Global Mutual Information Maximization, H-hop Enclosing Subgraph
     + __Experiment:__ 
         + __Task:__ *Top-K Recommendation* | __Datasets:__ *DBLP, ML-100K and ML-10M.* | __Baselines:__ *DeepWalk, LINE, Node2vec, VGAE, Metapath2vec, DMGI, PinSage, BiNE, GC-MC, IGMC, NeuMF, NGCF.*
-        + __Task:__ *Link Prediction* | __Datasets:__ *Wikipedia.* | __Baselines:__ *VGAE, MGAE, ARGA, ARVGA, GALA.*
+        + __Task:__ *Link Prediction* | __Datasets:__ *Wikipedia.* | __Baselines:__ *DeepWalk, LINE, Node2vec, VGAE, Metapath2vec, DMGI, PinSage, BiNE, GC-MC, IGMC, NeuMF, NGCF.*
 
 
 
