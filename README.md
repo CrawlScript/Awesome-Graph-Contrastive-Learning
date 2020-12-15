@@ -9,6 +9,7 @@ Collection of resources related with Graph Contrastive Learning.
 - [Papers](#papers)
   - [2019](#2019)
   - [2020](#2020)
+  - [2021](#2021)
 - [Library](#library)
 
 
@@ -48,6 +49,19 @@ Collection of resources related with Graph Contrastive Learning.
         + __Task:__ *Node Classification* | __Datasets:__ *Cora, Citeseer, Pubmed.* | __Baselines:__ *MLP, Iterative Classification Algorithm, Label Propagation, ManiReg, SemiEmb, Planetoid, Chebyshev, GCN, MoNet, JKNet, GAT, Linear, DeepWalk, GAE, VERSE, DGI.*
         + __Task:__ *Node Clustering* | __Datasets:__ *Cora, Citeseer, Pubmed.* | __Baselines:__ *VGAE, MGAE, ARGA, ARVGA, GALA.*
         + __Task:__ *Graph Classification* | __Datasets:__ *MUTAG, PTC-MR, IMDB-BIN, IMDB-MULTI, REDDIT-BIN.* | __Baselines:__ *Shortest Path Kernel, Graphlet kernel, Weisfeiler-Lehman Sub-tree Kernel, Deep Graph Kernels, Multi-scale Laplacian Kernel, GraphSAGE, GIN-0, GIN-ε, GAT, RandomWalk, node2vec, sub2vec, graph2vec, InfoGraph.*
+
+
+<a name="2021" />
+
+### 2021
+
+
+1. **Bipartite Graph Embedding via Mutual Information Maximization** *Jiangxia Cao, Xixun Lin, Shu Guo, Luchen Liu, Tingwen Liu, Bin Wang.* WSDM 2021.
+    + __Paper:__ [*Arxiv*](https://arxiv.org/pdf/2012.05442.pdf)
+    + __Method(*BiGI*):__ Local-Global Mutual Information Maximization, H-hop Enclosing Subgraph
+    + __Experiment:__ 
+        + __Task:__ *Top-K Recommendation* | __Datasets:__ *DBLP, ML-100K and ML-10M.* | __Baselines:__ *DeepWalk, LINE, Node2vec, VGAE, Metapath2vec, DMGI, PinSage, BiNE, GC-MC, IGMC, NeuMF, NGCF.*
+        + __Task:__ *Link Prediction* | __Datasets:__ *Wikipedia.* | __Baselines:__ *VGAE, MGAE, ARGA, ARVGA, GALA.*
 
 
 
