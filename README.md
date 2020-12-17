@@ -48,7 +48,17 @@ Collection of resources related with Graph Contrastive Learning.
     + __Experiment:__ 
         + __Task:__ *Node Classification* | __Datasets:__ *Cora, Citeseer, Pubmed.* | __Baselines:__ *MLP, Iterative Classification Algorithm, Label Propagation, ManiReg, SemiEmb, Planetoid, Chebyshev, GCN, MoNet, JKNet, GAT, Linear, DeepWalk, GAE, VERSE, DGI.*
         + __Task:__ *Node Clustering* | __Datasets:__ *Cora, Citeseer, Pubmed.* | __Baselines:__ *VGAE, MGAE, ARGA, ARVGA, GALA.*
-        + __Task:__ *Graph Classification* | __Datasets:__ *MUTAG, PTC-MR, IMDB-BIN, IMDB-MULTI, REDDIT-BIN.* | __Baselines:__ *Shortest Path Kernel, Graphlet kernel, Weisfeiler-Lehman Sub-tree Kernel, Deep Graph Kernels, Multi-scale Laplacian Kernel, GraphSAGE, GIN-0, GIN-ε, GAT, RandomWalk, node2vec, sub2vec, graph2vec, InfoGraph.*
+        + __Task:__ *Graph Classification* | __Datasets:__ *MUTAG, PTC-MR, IMDB-BIN, IMDB-MULTI, REDDIT-BIN.* | __Baselines:__ *Shortest Path Kernel, Graphlet Kernel, Weisfeiler-Lehman Sub-tree Kernel, Deep Graph Kernels, Multi-scale Laplacian Kernel, GraphSAGE, GIN-0, GIN-ε, GAT, RandomWalk, node2vec, sub2vec, graph2vec, InfoGraph.*
+
+
+
+1. **Unsupervised Graph Representation by Periphery and Hierarchical Information Maximization** *Sambaran Bandyopadhyay, Manasvi Aggarwal, M. Murty.* Arxiv 2020.
+    + __Paper:__ [*Arxiv*](https://arxiv.org/pdf/2006.04696.pdf) 
+    + __Method(*GraPHmax*):__ Periphery Information Maximization, Hierarchical Information Maximization
+    + __Experiment:__ 
+        + __Task:__ *Graph Classification * | __Datasets:__ *MUTAG, PTC, PROTEINS, NCI1 and NCI09, IMDB-BINARY, IMDB-MULTI.* | __Baselines:__ *Graphlet Kernel, RandomWalk Graph Kernel, Propagation Kernels, Weisfeiler-lehman Graph Kernels, AWE-DD, AWE-FB, DGCNN, PSCN, DCNN, ECC, DGK, DiffPool, IGN, GIN, 1-2-3GNN, 3WL-GNN, node2vec, sub2vec, graph2vec, DGI, InfoGraph.*
+        + __Task:__ *Graph Clustering* | __Datasets:__ *MUTAG, PROTEINS, IMDB-M.* | __Baselines:__ *DGI, InfoGraph.*
+
 
 
 <a name="2021" />
