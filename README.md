@@ -56,7 +56,7 @@ Collection of resources related with Graph Contrastive Learning.
     + __Paper:__ [*Arxiv*](https://arxiv.org/pdf/2006.04696.pdf) 
     + __Method(*GraPHmax*):__ Periphery Information Maximization, Hierarchical Information Maximization
     + __Experiment:__ 
-        + __Task:__ *Graph Classification * | __Datasets:__ *MUTAG, PTC, PROTEINS, NCI1 and NCI09, IMDB-BINARY, IMDB-MULTI.* | __Baselines:__ *Graphlet Kernel, RandomWalk Graph Kernel, Propagation Kernels, Weisfeiler-lehman Graph Kernels, AWE-DD, AWE-FB, DGCNN, PSCN, DCNN, ECC, DGK, DiffPool, IGN, GIN, 1-2-3GNN, 3WL-GNN, node2vec, sub2vec, graph2vec, DGI, InfoGraph.*
+        + __Task:__ *Graph Classification* | __Datasets:__ *MUTAG, PTC, PROTEINS, NCI1 and NCI09, IMDB-BINARY, IMDB-MULTI.* | __Baselines:__ *Graphlet Kernel, RandomWalk Graph Kernel, Propagation Kernels, Weisfeiler-lehman Graph Kernels, AWE-DD, AWE-FB, DGCNN, PSCN, DCNN, ECC, DGK, DiffPool, IGN, GIN, 1-2-3GNN, 3WL-GNN, node2vec, sub2vec, graph2vec, DGI, InfoGraph.*
         + __Task:__ *Graph Clustering* | __Datasets:__ *MUTAG, PROTEINS, IMDB-M.* | __Baselines:__ *DGI, InfoGraph.*
 
 
