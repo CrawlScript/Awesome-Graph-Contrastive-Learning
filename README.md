@@ -51,6 +51,15 @@ Collection of resources related with Graph Contrastive Learning.
         + __Task:__ *Graph Classification* | __Datasets:__ *MUTAG, PTC-MR, IMDB-BIN, IMDB-MULTI, REDDIT-BIN.* | __Baselines:__ *Shortest Path Kernel, Graphlet Kernel, Weisfeiler-Lehman Sub-tree Kernel, Deep Graph Kernels, Multi-scale Laplacian Kernel, GraphSAGE, GIN-0, GIN-ε, GAT, RandomWalk, node2vec, sub2vec, graph2vec, InfoGraph.*
 
 
+1. **GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training** *Jiezhong Qiu, Qibin Chen, Yuxiao Dong, Jing Zhang, Hongxia Yang, M. Ding, Kuansan Wang, Jie Tang.* KDD 2020.
+    + __Paper:__ [*ACM*](https://dl.acm.org/doi/10.1145/3394486.3403168), [*Arxiv*](https://arxiv.org/pdf/2006.09963.pdf) | _Code:_ [*DGL*](https://github.com/THUDM/GCC)
+
+
+
+1. **Graph Contrastive Learning with Augmentations** *Yuning You, Tianlong Chen, Yongduo Sui, Ting Chen, Zhangyang Wang, Yang Shen.* NeurIPS 2020.
+    + __Paper:__ [*NeurIPS*](https://papers.nips.cc/paper/2020/file/3fe230348e9a12c13120749e3f9fa4cd-Paper.pdf), [*Arxiv*](https://arxiv.org/pdf/2010.13902.pdf) | __Code:__ [*torch_geometric*](https://github.com/Shen-Lab/GraphCL)
+
+
 
 1. **Unsupervised Graph Representation by Periphery and Hierarchical Information Maximization** *Sambaran Bandyopadhyay, Manasvi Aggarwal, M. Murty.* Arxiv 2020.
     + __Paper:__ [*Arxiv*](https://arxiv.org/pdf/2006.04696.pdf) 
