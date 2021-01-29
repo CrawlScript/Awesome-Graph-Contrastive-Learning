@@ -52,7 +52,7 @@ Collection of resources related with Graph Contrastive Learning.
 
 
 1. **GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training** *Jiezhong Qiu, Qibin Chen, Yuxiao Dong, Jing Zhang, Hongxia Yang, M. Ding, Kuansan Wang, Jie Tang.* KDD 2020.
-    + __Paper:__ [*ACM*](https://dl.acm.org/doi/10.1145/3394486.3403168), [*Arxiv*](https://arxiv.org/pdf/2006.09963.pdf) | _Code:_ [*DGL*](https://github.com/THUDM/GCC)
+    + __Paper:__ [*ACM*](https://dl.acm.org/doi/10.1145/3394486.3403168), [*Arxiv*](https://arxiv.org/pdf/2006.09963.pdf) | __Code:__ [*DGL*](https://github.com/THUDM/GCC)
 
 
 
@@ -67,6 +67,17 @@ Collection of resources related with Graph Contrastive Learning.
     + __Experiment:__ 
         + __Task:__ *Graph Classification* | __Datasets:__ *MUTAG, PTC, PROTEINS, NCI1 and NCI09, IMDB-BINARY, IMDB-MULTI.* | __Baselines:__ *Graphlet Kernel, RandomWalk Graph Kernel, Propagation Kernels, Weisfeiler-lehman Graph Kernels, AWE-DD, AWE-FB, DGCNN, PSCN, DCNN, ECC, DGK, DiffPool, IGN, GIN, 1-2-3GNN, 3WL-GNN, node2vec, sub2vec, graph2vec, DGI, InfoGraph.*
         + __Task:__ *Graph Clustering* | __Datasets:__ *MUTAG, PROTEINS, IMDB-M.* | __Baselines:__ *DGI, InfoGraph.*
+
+
+
+1. **Graph Representation Learning via Graphical Mutual Information Maximization** *Zhen Peng, Wenbing Huang, Minnan Luo, Qinghua Zheng, Yu Rong, Tingyang Xu, Junzhou Huang.* WWW 2020.
+    + __Paper:__ [*ACM*](https://dl.acm.org/doi/abs/10.1145/3366423.3380112), [*Arxiv*](https://arxiv.org/pdf/2002.01169.pdf) | __Code:__ [*PyTorch*](https://github.com/zpeng27/GMI)
+    + __Method(*GMI*):__  Graphical Mutual Information
+    + __Experiment:__ 
+        + __Task:__ *Transductive Node Classification* | __Datasets:__ *Cora, Citeseer, Pubmed.* | __Baselines:__ *Raw Features, DeepWalk, EP-B, DGI, LP, Planetoid-T, GCN, GAT, GWNN.*
+        + __Task:__ *Inductive Node Classification* | __Datasets:__ *Reddit, PPI.* | __Baselines:__ *Raw Features, DeepWalk, DeepWalk+Features, GraphSAGE-GCN, GraphSAGE-Mean, GraphSAGE-LSTM, GraphSAGE-Pool, DGI, GAT, FastGCN, GaAN.*
+        + __Task:__ *Link Prediction* | __Datasets:__ *Cora, BlogCatalog, Flickr, PPI.* | __Baselines:__ *DGI.*
+
 
 
 
