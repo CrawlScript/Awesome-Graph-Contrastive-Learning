@@ -95,6 +95,15 @@ Collection of resources related with Graph Contrastive Learning.
 
 
 
+1. **How to Find Your Friendly Neighborhood: Graph Attention Design with Self-Supervision** *Dongkwan Kim, Alice Oh.* ICLR 2021
+    + __Paper:__ [*OpenReview*](https://openreview.net/pdf?id=Wi5KUNlqWty) | __Code:__ [*torch_geometric*](https://github.com/dongkwan-kim/SuperGAT)
+    + __Method(*SuperGAT*):__ 
+    + __Experiment:__ 
+        + __Task:__ *Node Classification* | __Datasets:__ *ogbn-arxiv, CS, Physics, Cora-ML,  Cora-Full, DBLP, Chameleon, Four-Univ, Wiki-CS, Photo, Computers, Flickr, Crocodile,  Cora, CiteSeer, PubMed, PPI.* | __Baselines:__ *GCN, GraphSAGE, GAT, CGAT, GLCN, LDS, GCN + GAM, GCN + NS.*
+        + __Task:__ *Link Prediction* | __Datasets:__ *Cora, CiteSeer, PubMed, PPI.* | __Baselines:__ 
+
+
+
 <a name="library" />
 
 ## Library
